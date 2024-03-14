@@ -1,0 +1,76 @@
+body{
+  background:linear-gradient(45deg,#0a0a0a,#3a4452);
+  margin: 0%;
+  padding:0%;
+  height: 100vh;
+  width:100%;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.one ::placeholder{
+  text-align: end;
+}
+.one{
+ border: 3px solid rgb(158, 158, 158);
+ width:295px;
+ padding: 10px;
+ border-radius: 20px;
+ box-shadow:0px 3px 15px rgba(150,150,150,0.5);
+}
+.one input{
+  width:100%;
+  background-color: transparent;
+ border:none;
+  margin-bottom: 50px;
+  font-size:40px;
+  color:white;
+  text-align: end;
+  
+}
+.button-name{
+  width:600px;
+  margin-top:8px;
+}
+
+ button{
+  text-align: center;
+  width:70px;
+  height: 80px;
+  background-color: transparent;
+  color:white;
+  border-color: rgb(119, 119, 119);
+  font-size: 20px;
+  cursor:pointer;
+  border-radius: 50%;
+  outline:none;
+  border:none;
+  margin-left: 0%;
+  box-shadow:-8px -8px 15px rgba(255,255,255,0.1);
+  background-color: rgb(128, 128, 128);
+}
+button:hover{
+  background: rgb(32, 151, 255);
+}
+#equal{
+  color:white;
+  background-color: orange;
+}
+input::placeholder{
+  color:white;
+  
+}
+#Ac{
+  color:orange;
+  font-size: 20px;
+  font-weight: bolder;
+}
+#Acc{
+ font-size: larger;
+  color:orange;
+  font-weight:900;
+ 
+}
